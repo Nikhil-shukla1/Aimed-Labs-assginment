@@ -65,6 +65,7 @@ function Register() {
     const handleSubmit = (e) => {
         if(isValid === true){
         e.preventDefault();
+        
 
 
         axios.post('https://qmaz8f87pz.us.aircode.run/user/register',{ name, email, password })
