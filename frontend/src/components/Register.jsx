@@ -72,7 +72,7 @@ function Register() {
                 console.log(result)
                 navigate('/');
             })
-            
+
             .catch(err => toast.error(`${err}`));
 
         setName('');
